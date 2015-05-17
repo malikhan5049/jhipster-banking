@@ -1,0 +1,21 @@
+{
+    "bankingApp": {
+        "bankAccount" : {
+            "home": {
+                "title": "BankAccounts",
+                "createLabel": "Create a new BankAccount",
+                "createOrEditLabel": "Create or edit a BankAccount"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete BankAccount {{ id }}?"
+            },
+            "detail": {
+                "title": "BankAccount"
+            },
+            "name": "Name",
+            "balance": "Balance",
+            "user": "user",
+            "operation": "operation"
+        }
+    }
+}

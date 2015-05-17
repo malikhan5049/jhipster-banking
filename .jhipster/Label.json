@@ -1,0 +1,38 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "operation",
+            "relationshipNameCapitalized": "Operation",
+            "relationshipFieldName": "operation",
+            "otherEntityName": "operation",
+            "relationshipType": "many-to-many",
+            "otherEntityNameCapitalized": "Operation",
+            "ownerSide": false
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "label",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Label",
+            "fieldNameUnderscored": "label",
+            "fieldInJavaBeanMethod": "Label",
+            "fieldValidate": true,
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "fieldsContainOwnerManyToMany": false,
+    "fieldsContainOneToMany": false,
+    "fieldsContainLocalDate": false,
+    "fieldsContainCustomTime": false,
+    "fieldsContainBigDecimal": false,
+    "fieldsContainDateTime": false,
+    "fieldsContainDate": false,
+    "changelogDate": "20150510155549",
+    "pagination": "no",
+    "validation": true
+}

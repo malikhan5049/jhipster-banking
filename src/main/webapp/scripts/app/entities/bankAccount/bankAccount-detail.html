@@ -1,0 +1,46 @@
+
+<div>
+    <h2><span translate="bankingApp.bankAccount.detail.title">BankAccount</span> {{bankAccount.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th translate="entity.detail.field">Field</th>
+                    <th translate="entity.detail.value">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span translate="bankingApp.bankAccount.name">Name</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{bankAccount.name}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="bankingApp.bankAccount.balance">Balance</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{bankAccount.balance}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="bankingApp.bankAccount.user">user</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{bankAccount.user.login}}" readonly>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            ui-sref="bankAccount"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

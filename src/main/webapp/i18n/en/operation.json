@@ -1,0 +1,22 @@
+{
+    "bankingApp": {
+        "operation" : {
+            "home": {
+                "title": "Operations",
+                "createLabel": "Create a new Operation",
+                "createOrEditLabel": "Create or edit a Operation"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Operation {{ id }}?"
+            },
+            "detail": {
+                "title": "Operation"
+            },
+            "date": "Date",
+            "description": "Description",
+            "amount": "Amount",
+            "bankAccount": "bankAccount",
+            "label": "label"
+        }
+    }
+}
